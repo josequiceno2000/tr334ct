@@ -146,6 +146,42 @@ HAMBURGER MENU
   width: 100%;
 }
 
+.hamburger__menu,
+.hamburger__links {
+  flex-direction: column;
+}
+
+.hamburger__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.hamburger__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+  width: 100%;
+}
+
+.hamburger__link {
+  width: 100%;
+  text-align: center;
+}
+
+.hamburger__link a {
+  display: inline-block;
+  text-align: center;
+}
+
 
 /* 
 
