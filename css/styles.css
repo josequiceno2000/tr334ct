@@ -2,6 +2,7 @@
 
 :root {
   font-size: 16px;
+  --slide-width: 210px;
 }
 
 body {
@@ -223,6 +224,90 @@ HAMBURGER MENU
   right: 0;
   padding: 10px; 
 }
+
+/* 
+
+MAIN
+
+*/
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* 
+
+HERO
+
+*/
+
+#hero {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col--forty {
+  width: 35%;
+}
+
+.col--sixty {
+  width: 55%;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+
+.carousel__container {
+  margin-top: -10px;
+  width: var(--slide-width);
+  overflow: hidden;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #118701;
+}
+
+.carousel__slides {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: textCarousel 18s ease-in-out infinite;
+}
+
+.carousel__text {
+  width: var(--slide-width);
+  flex-shrink: 0;
+}
+
+@keyframes textCarousel {
+  0%, 30% {
+    transform: translateX(calc(-3 * var(--slide-width)));
+  }
+  
+  33%, 63% {
+    transform: translateX(calc(-2 * var(--slide-width)));
+  }
+  
+  66%, 97% {
+    transform: translateX(calc(-1 * var(--slide-width)));
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+  
+}
+
 
 /* 
 
