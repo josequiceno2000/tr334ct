@@ -23,12 +23,11 @@ header,
 }
 
 header {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   align-items: center;
   justify-content: space-between;
-  
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .title {
@@ -36,7 +35,6 @@ header {
 }
 
 .title {
-  padding: 20px 20px;
   gap: .3vw;
 }
 
@@ -76,6 +74,7 @@ header {
   background-size: 100% 0.04em;
   background-position: 50% 100%;
   transition: background-size 350ms ease-in-out, color 375ms ease-in-out;
+  cursor: pointer;
 }
 
 .nav__link:hover {
@@ -83,9 +82,7 @@ header {
   background-size: 100% 100%;
 }
 
-.account {
-  padding: 20px;
-}
+
 
 .account__login {
   padding: 6px 10px;
