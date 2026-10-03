@@ -257,7 +257,7 @@ HERO
 }
 
 .col--forty {
-  width: 40%;
+  width: 35%;
 }
 
 .col--sixty {
@@ -265,21 +265,27 @@ HERO
 }
 
 .hero__title {
-  font-size: 4.2rem;
+  font-size: 3rem;
   line-height: 1.2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .hero__description {
-  font-size: 1.8rem;
+  flex-basis: 100%;
+  margin-top: 15px;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.5px;
 }
 
 .carousel__container {
+  display: inline-flex;
   width: var(--slide-width);
   overflow: hidden;
-  margin-top: -.6rem;
-  font-size: 4.2rem;
+  font-size: 3rem;
   font-weight: 600;
   color: #118701;
 }
