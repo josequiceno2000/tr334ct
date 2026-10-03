@@ -2,7 +2,7 @@
 
 :root {
   font-size: 16px;
-  --slide-width: 214px;
+  --slide-width: 216px;
 }
 
 body {
@@ -29,8 +29,8 @@ header {
   max-width: 1200px;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto;
-  margin-top: 30px;
+  margin: 24px auto;
+  margin-top: 40px;
 }
 
 .title {
@@ -42,7 +42,7 @@ header {
 }
 
 .title__img {
-  height: 50px;
+  height: 48px;
 }
 
 .title__text {
@@ -51,13 +51,13 @@ header {
 }
 
 .topnav {
-  padding: 20px;
-  margin-right: 50px;
+  padding: 24px;
+  margin-right: 48px;
 }
 
 .nav__links {
   list-style-type: none;
-  gap: 40px;
+  gap: 42px;
 }
 
 .nav__link a,
@@ -83,7 +83,7 @@ header {
 }
 
 .nav__link {
-  padding: 2px 8px;
+  padding: 4px 8px;
   cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ header {
 
 .account__login {
   padding: 4px 8px;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .account__login:hover {
@@ -107,7 +107,7 @@ header {
   color: white;
   border: none;
   border-radius: 30px;
-  padding: 6px 20px;
+  padding: 8px 24px;
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 0.5px;
@@ -156,7 +156,7 @@ HAMBURGER MENU
 }
 
 .icon__wrapper {
-  width: 40px;
+  width: 42px;
   cursor: pointer;
   transform: scale(1);
   transition: all 300ms ease-in-out;
@@ -209,7 +209,7 @@ HAMBURGER MENU
 
 .hamburger__button {
   font-size: 1.1rem;
-  min-width: 100px;
+  min-width: 96px;
   transform: scale(1);
   transition: all 300ms ease-in-out;
 }
@@ -223,7 +223,7 @@ HAMBURGER MENU
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px; 
+  padding: 8px; 
 }
 
 /* 
@@ -276,7 +276,7 @@ HERO
 
 .hero__description {
   flex-basis: 100%;
-  margin-top: 15px;
+  margin-top: 16px;
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -316,7 +316,7 @@ HERO
 .email__input,
 .email__button {
   border-radius: 100px;
-  padding: 10px 30px;
+  padding: 8px 32px;
 }
 
 .email__input {
@@ -376,7 +376,7 @@ FEATURES
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
   text-align: center;
 }
 
@@ -422,7 +422,7 @@ FEATURES
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  height: 380px;
+  height: 376px;
   transform: scale(1.0);
   transition: all 300ms ease-in-out;
 }
@@ -436,7 +436,7 @@ FEATURES
 }
 
 .feature__image--wrapper {
-  width: 110px;
+  width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,7 +448,7 @@ FEATURES
   border: 1px solid rgba(128, 128, 128, 0.185);
   border-radius: 100%;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
-  padding: 14px;
+  padding: 16px;
 }
 
 .feature__title {
