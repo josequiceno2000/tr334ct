@@ -303,11 +303,13 @@ HERO
 
 .email,
 .email__button {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .email {
   position: relative;
+  width: 96%;
+  margin: 0 auto;
   margin-top: 20px;
 }
 
