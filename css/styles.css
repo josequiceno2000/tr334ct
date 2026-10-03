@@ -232,6 +232,7 @@ MAIN
 */
 
 main {
+  width: 90%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -244,13 +245,11 @@ HERO
 
 #hero {
   margin-top: 80px;
-  width: 100%;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  width: 100%;
   max-width: 1200px;
   align-items: center;
   justify-content: space-between;
@@ -261,6 +260,7 @@ HERO
 }
 
 .col--sixty {
+  flex-shrink: 3;
   width: 58%;
 }
 
@@ -327,7 +327,7 @@ HERO
 .email__button {
   position: absolute;
   right: 0;
-  transform: scale(0.9) translateY(2px) translateX(4px);
+  transform: scale(0.9) translateY(1px) translateX(4px);
 }
 
 /* 
@@ -354,6 +354,12 @@ CUSTOMERS
 .customers__image {
   opacity: 0.5;
 }
+
+/* 
+
+
+
+*/
 
 
 
@@ -390,6 +396,10 @@ RESPONSIVENESS
 
 */
 
+@media (max-width: 1253px) {
+
+}
+
 @media (max-width: 850px) {
   .topnav,
   .account {
@@ -399,5 +409,70 @@ RESPONSIVENESS
 
   .hamburger__icon {
     display: inline;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col--forty {
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #fffffff6, #f7f6f6);
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 20px;
+    padding: 40px 60px;
+  }
+
+  .col--sixty {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    width: 100vw;
+    top: 60px;
+  }
+
+  .hero__title {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero__title,
+  .carousel__text {
+    font-size: 2.4rem;
+  }
+
+  .hero__description {
+    font-size: 1.2rem;
+  }
+
+  .email {
+    font-size: 1.2rem;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+
+  .email__button {
+    font-size: 1.2rem;
+  }
+
+  .customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 48px;
+  }
+
+  .customers__text {
+    font-size: 1rem;
   }
 }
