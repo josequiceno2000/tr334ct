@@ -2,7 +2,7 @@
 
 :root {
   font-size: 16px;
-  --slide-width: 300px;
+  --slide-width: 214px;
 }
 
 body {
@@ -243,7 +243,7 @@ HERO
 */
 
 #hero {
-  margin-top: 40px;
+  margin-top: 80px;
   width: 100%;
 }
 
@@ -261,7 +261,7 @@ HERO
 }
 
 .col--sixty {
-  width: 55%;
+  width: 58%;
 }
 
 .hero__title {
@@ -309,8 +309,7 @@ HERO
 .email {
   position: relative;
   width: 96%;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .email__input,
@@ -329,6 +328,31 @@ HERO
   position: absolute;
   right: 0;
   transform: scale(0.9) translateY(2px) translateX(4px);
+}
+
+/* 
+
+CUSTOMERS
+
+*/
+
+.customers {
+  margin-top: 56px;
+}
+
+.customers__text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.customers__image--wrapper {
+  margin-top: 8px;
+  width: 90%;
+}
+
+.customers__image {
+  opacity: 0.5;
 }
 
 
