@@ -257,7 +257,7 @@ HERO
 }
 
 .col--forty {
-  width: 35%;
+  width: 40%;
 }
 
 .col--sixty {
@@ -269,12 +269,17 @@ HERO
   line-height: 1.2;
 }
 
+.hero__description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
 
 .carousel__container {
   width: var(--slide-width);
   overflow: hidden;
   margin-top: -.6rem;
-  margin-left: 2px;
   font-size: 4.2rem;
   font-weight: 600;
   color: #118701;
@@ -290,6 +295,8 @@ HERO
   width: var(--slide-width);
   flex-shrink: 0;
 }
+
+
 
 @keyframes textCarousel {
   0%, 30% {
