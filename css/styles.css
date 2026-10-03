@@ -396,11 +396,7 @@ RESPONSIVENESS
 
 */
 
-@media (max-width: 1253px) {
-
-}
-
-@media (max-width: 850px) {
+@media (max-width: 1125px) {
   .topnav,
   .account {
     display: none;
@@ -474,5 +470,44 @@ RESPONSIVENESS
 
   .customers__text {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero__title,
+  .carousel__text {
+    font-size: 2rem;
+  }
+
+  .carousel__text {
+    margin-top: -4px;
+  }
+
+  .hero__description {
+    font-size: 1rem;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 4px;
+  }
+
+  .email,
+  .email__button {
+    font-size: 1rem;
+  }
+  
+  .email__button {
+    display: block;
+    position: relative;
+    transform: none;
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .customers {
+    margin-top: 24px;
+  }
+
+  .customers__text {
+    font-size: .8rem;
   }
 }
