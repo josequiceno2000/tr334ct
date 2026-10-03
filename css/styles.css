@@ -423,6 +423,16 @@ FEATURES
   align-items: center;
   text-align: center;
   height: 380px;
+  transform: scale(1.0);
+  transition: all 300ms ease-in-out;
+}
+
+.feature:hover {
+  transform: scale(1.04);
+}
+
+.feature:hover .feature__title {
+  color:#118701;
 }
 
 .feature__image--wrapper {
@@ -444,6 +454,7 @@ FEATURES
 .feature__title {
   font-size: 2.2rem;
   margin-top: 24px;
+  transition: all 300ms ease-in-out;
 }
 
 .feature_description {
