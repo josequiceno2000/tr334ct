@@ -275,7 +275,6 @@ HERO
   letter-spacing: 0.5px;
 }
 
-
 .carousel__container {
   width: var(--slide-width);
   overflow: hidden;
@@ -296,6 +295,41 @@ HERO
   flex-shrink: 0;
 }
 
+.email,
+.email__button {
+  font-size: 1.8rem;
+}
+
+.email {
+  position: relative;
+  margin-top: 20px;
+}
+
+.email__input,
+.email__button {
+  border-radius: 100px;
+  padding: 10px 30px;
+}
+
+.email__input {
+  width: 100%;
+  border: 1px solid #051f023d;
+  box-shadow: inset 1px 1px 4px  rgba(0, 0, 0, 0.349);
+}
+
+.email__button {
+  position: absolute;
+  right: 0;
+  transform: scale(0.9) translateY(2px) translateX(4px);
+}
+
+
+
+/* 
+
+ANIMATIONS
+
+*/
 
 
 @keyframes textCarousel {
