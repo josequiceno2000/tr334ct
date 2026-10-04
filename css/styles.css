@@ -24,13 +24,16 @@ header,
 }
 
 header {
-  position: relative;
+  position: sticky;
+  top: 0;
+  background: white;
   width: 90%;
   max-width: 1200px;
   align-items: center;
   justify-content: space-between;
   margin: 24px auto;
   margin-top: 40px;
+  z-index: 3;
 }
 
 .title {
