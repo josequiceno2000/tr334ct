@@ -881,6 +881,14 @@ RESPONSIVENESS
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
     animation: none;
   }
+
+  .markers__container {
+    flex-direction: column;
+  }
+
+  .values__btn {
+    width: 200px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -924,4 +932,45 @@ RESPONSIVENESS
   #features {
     margin-top: 80px;
   }
+
+  #values {
+    flex-direction: column-reverse;
+    gap: 48px;
+    width: 90%;
+  }
+
+  .values__left,
+  .values__right,
+  .marker,
+  .values__text {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .values__title {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .marker {
+    padding-left: 0px;
+    text-align: center;
+    max-width: 60ch;
+    margin: 0 auto;
+  }
+
+  .marker__title,
+  .marker__description {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .marker::before {
+    content: none;
+  }
+  
 }
