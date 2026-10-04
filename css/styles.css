@@ -509,8 +509,8 @@ LEARN
 }
 
 .learn__description {
-  font-size: 1.2rem;
-  max-width: 60ch;
+  font-size: 1.6rem;
+  max-width: 55ch;
   margin-top: 16px;
   text-align-last: left;
 }
@@ -539,7 +539,7 @@ STEPS
 .steps__left {
   position: absolute;
   z-index: -1;
-  transform: scale(.9) translateX(-400px);
+  transform: scale(.9) translateX(-200px);
   animation: moveLeft 10s ease-out;
 }
 
@@ -558,7 +558,7 @@ STEPS
   position: absolute;
   border-radius: 10px;
   padding: 40px;
-  transform: translateX(320px);
+  transform: translateX(200px);
   background: linear-gradient(20deg, rgb(233, 233, 233), white);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   animation: moveRight 10s ease-out;
@@ -622,7 +622,7 @@ STEPS
 }
 
 .step__description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   max-width: 35ch;
 }
 
@@ -633,7 +633,72 @@ VALUES
 */
 
 #values {
-  margin-top: 360px;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 400px;
+}
+
+.values__left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.values__subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.values__title {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 25ch;
+  margin-top: 8px;
+  
+}
+
+.values__description {
+  font-size: 1.6rem;
+  margin-top: 24px;
+}
+
+.markers__container {
+  display: flex;
+  gap: 24px;
+}
+
+.marker__title--wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.marker {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.marker__description {
+  font-size: 1.6rem;
+  
+}
+
+.values__right {
+  width: 45%;
+}
+
+.values__btn {
+  margin-top: 16px;
+  width: 26%;
+  font-size: 1.4rem;
 }
 
 
@@ -669,7 +734,7 @@ ANIMATIONS
   }
 
   to {
-    transform: scale(.9) translateX(-400px);
+    transform: scale(.9) translateX(-200px);
   } 
 }
 
@@ -679,7 +744,7 @@ ANIMATIONS
   }
 
   to {
-    transform: translateX(320px);
+    transform: translateX(200px);
   }
 }
 
