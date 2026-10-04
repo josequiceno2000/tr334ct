@@ -7,6 +7,7 @@
 
 body {
   font-family: "Smooch Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 /* 
@@ -137,11 +138,12 @@ HAMBURGER MENU
   );
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   border: 1px solid rgb(160, 160, 160);
   border-radius: 10px;
   height: auto;
   top: -500px;
+  right: 5%;
   align-items: center;
   justify-content: center;
   padding: 70px 20px;
@@ -150,7 +152,7 @@ HAMBURGER MENU
 }
 
 .hamburger.active {
-  top: 0px;
+  top: -40px;
 }
 
 .hamburger__icon {
@@ -531,7 +533,7 @@ STEPS
   max-width: 1200px;
   align-items: center;
   justify-content: center;
-  margin-top: 240px;
+  margin-top: 360px;
 }
 
 .steps__left {
@@ -577,6 +579,8 @@ STEPS
 .steps__container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   gap: 16px;
   margin-top: 24px;
   margin-left: 4px;
@@ -586,11 +590,25 @@ STEPS
   display: flex;
   column-gap: 24px;
   align-items: flex-start;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all 350ms ease-in-out;
+}
+
+.step:hover {
+  background: #118701;
+  color: white;
+  width: 100%;
+}
+
+.step:hover .step__number {
+  color: white;
 }
 
 .step__number {
   font-size: 1.8rem;
   color: rgba(161, 161, 161, 1);
+  text-align: center;
 }
 
 .step__text {
@@ -698,7 +716,7 @@ RESPONSIVENESS
     position: absolute;
     z-index: -1;
     opacity: 0.6;
-    width: 100vw;
+    width: 100%;
     top: 144px;
   }
 
@@ -757,6 +775,22 @@ RESPONSIVENESS
 
   #learn {
     flex-direction: column-reverse;
+  }
+
+  .steps__left {
+    display: none;
+  }
+
+  .steps__right {
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    width: 480px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 40px;
+    transform: none;
+    background: linear-gradient(20deg, rgb(233, 233, 233), white);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    animation: none;
   }
 }
 
