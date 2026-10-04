@@ -238,6 +238,10 @@ main {
   width: 90%;
   margin: 0 auto;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 
@@ -462,6 +466,55 @@ FEATURES
 .feature_description {
   font-size: 1.6rem;
   max-width: 25ch;
+}
+
+/* 
+
+LEARN
+
+*/
+
+#learn {
+  display: flex;
+  flex-direction: row;;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.learn__left {
+  max-width: 50%;
+  text-align-last: left;
+}
+
+.learn__right {
+  max-width: 50%;
+}
+
+.learn__subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.learn__title {
+  font-size: 3rem;
+  line-height: 1;
+  margin-top: 8px;
+}
+
+.learn__description {
+  font-size: 1.2rem;
+  max-width: 60ch;
+  margin-top: 16px;
+  text-align-last: left;
+}
+
+.learn__button {
+  font-size: 1.4rem;
+  margin-top: 16px;
 }
 
 
