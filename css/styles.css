@@ -645,6 +645,10 @@ RESPONSIVENESS
   #features {
     margin-top: 256px;
   }
+
+  #learn {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 720px) {
