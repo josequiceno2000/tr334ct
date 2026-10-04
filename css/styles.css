@@ -480,7 +480,8 @@ LEARN
   width: 100%;
   max-width: 1200px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 8px;
 }
 
 .learn__left {
@@ -516,6 +517,7 @@ LEARN
   font-size: 1.4rem;
   margin-top: 16px;
 }
+
 
 
 /* 
