@@ -639,6 +639,7 @@ VALUES
   align-items: center;
   justify-content: space-between;
   margin-top: 400px;
+  margin-bottom: 80px;
 }
 
 .values__left {
@@ -714,6 +715,158 @@ VALUES
   width: 26%;
   font-size: 1.4rem;
 }
+
+/* 
+
+PRICING 
+
+*/
+
+#pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.pricing__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.pricing__title {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 25ch;
+  margin-top: 8px;
+}
+
+.pricing__description {
+  font-size: 1.6rem;
+  margin-top: 16px;
+  max-width: 50ch;
+  text-align: center;
+}
+
+.prices__container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  gap: 40px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  width: 376px;
+  border: 1px solid rgb(235, 234, 234);
+  border-radius: 10px;
+  transition: all 350ms ease-in-out;
+}
+
+.price:hover {
+  transform: scale(1.02);
+}
+
+.price__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.452);
+  padding: 24px 0 24px 0;
+}
+
+.price__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.price__number {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.price__frequency {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: rgb(124, 124, 124);
+}
+
+.price__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0 24px 0;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.452);
+}
+
+.price__prescription {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.price__detail {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+
+.price__button--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px 0 24px 0;
+}
+
+.price__button {
+  padding: 8px 56px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 100px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+}
+
+.price__button:hover {
+  transform: scale(1.01) translateY(-2px) translateX(2px);
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.363);
+}
+
+#price--personal.price {
+  border-top: 8px solid transparent;
+  background-image: 
+    linear-gradient(#ffffff, #ffffff),
+    linear-gradient(to right, rgb(22, 131, 104), rgb(136, 255, 209));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+#price--personal .price__button {
+  background: linear-gradient(to right, rgb(22, 131, 104), rgb(78, 212, 161));
+}
+
+#price--personal 
+
 
 
 /* 
