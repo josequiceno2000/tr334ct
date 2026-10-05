@@ -848,8 +848,8 @@ PRICING
 }
 
 .price__button:hover {
-  transform: scale(1.01) translateY(-2px) translateX(2px);
-  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.363);
+  transform: scale(1.01) translateY(-2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.363);
 }
 
 #price--personal.price {
@@ -865,9 +865,35 @@ PRICING
   background: linear-gradient(to right, rgb(22, 131, 104), rgb(78, 212, 161));
 }
 
-#price--personal 
+#price--business.price {
+  background: linear-gradient(to bottom, rgb(65, 0, 139), rgb(106, 24, 201));
+  color: white;
+} 
 
+#price--business .price__detail {
+  color: lightgray;
+}
 
+#price--business > div.price__header > span {
+  color: white;
+}
+
+#price--business .price__button {
+  color: rgb(106, 24, 201);
+}
+
+#price--enterprise.price {
+  border-top: 8px solid transparent;
+  background-image: 
+    linear-gradient(#ffffff, #ffffff),
+    linear-gradient(to right, rgb(131, 22, 82), rgb(255, 136, 191));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+#price--enterprise .price__button {
+  background: linear-gradient(to right, rgb(131, 22, 82), rgb(218, 97, 153));
+}
 
 /* 
 
