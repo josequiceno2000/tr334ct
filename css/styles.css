@@ -152,7 +152,7 @@ HAMBURGER MENU
 }
 
 .hamburger.active {
-  top: -40px;
+  top: 16px;
 }
 
 .hamburger__icon {
@@ -376,7 +376,6 @@ FEATURES
   align-content: center;
   justify-content: center;
   text-align: center;
-  margin-top: 120px;
 }
 
 .features__header {
@@ -1095,7 +1094,7 @@ RESPONSIVENESS
 
 */
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
   header {
     width: 100%;
     padding: 2vh 10vw;
@@ -1281,7 +1280,7 @@ RESPONSIVENESS
   }
 
   #features {
-    margin-top: 80px;
+    margin-top: 200px;
   }
 
   #values {
