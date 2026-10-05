@@ -1062,6 +1062,8 @@ footer {
 .footer__links {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 64px;
   width: 80%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 32px 8px 32px 8px;
@@ -1336,6 +1338,8 @@ RESPONSIVENESS
     margin-top: -64px;
   }
 
+  
+
 }
 
 @media (max-width: 1200px) {
@@ -1432,5 +1436,19 @@ RESPONSIVENESS
 
   .btn {
     display: none;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .footer__links {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    row-gap: 16px;
   }
 }
