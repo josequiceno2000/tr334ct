@@ -917,6 +917,8 @@ TESTIMONIALS
 
 .testimonials__left {
   width: 45%;
+  display: flex;
+  align-items: center;
 }
 
 .testimonials__right {
@@ -941,7 +943,7 @@ TESTIMONIALS
 }
 
 .testimonials__description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 8px;
   max-width: 50ch;
   text-align: left;
@@ -975,7 +977,7 @@ TESTIMONIALS
 
 .btn {
   position: absolute;
-  transform: translateY(-30%) scale(1.0);
+  transform: translateY(-20%) scale(1.0);
   bottom: 10%;
   background-color: #118701;
   color: white;
@@ -989,11 +991,11 @@ TESTIMONIALS
   transition: all 350ms ease-in-out;
 }
 
-.btn--prev { right: 80px; }
-.btn--next {right: 32px; }
+.btn--prev { right: 104px; }
+.btn--next {right: 56px; }
 .btn:hover {
   background-color: #0d7200; 
-  transform: translateY(-30%) scale(1.04);
+  transform: translateY(-20%) scale(1.04);
 }
 
 .testimonial__title {
