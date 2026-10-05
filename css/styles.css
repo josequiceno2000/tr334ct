@@ -1452,3 +1452,23 @@ RESPONSIVENESS
     row-gap: 16px;
   }
 }
+
+@media (max-width: 500px) {
+  .testimonials__header {
+    margin-bottom: 56px;
+  }
+
+  .testimonial {
+    margin-top: 120px;
+    height: 400px;
+  }
+
+  .testimonial__profile {
+    align-items: start;
+  }
+
+  .profile__image--wrapper {
+    width: 120px;
+    height: auto;
+  }
+}
