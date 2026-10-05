@@ -950,7 +950,7 @@ TESTIMONIALS
 .testimonials__container {
   position: relative;
   width: 600px;
-  height: 350px;
+  height: 300px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 8px;
@@ -975,7 +975,7 @@ TESTIMONIALS
 
 .btn {
   position: absolute;
-  transform: translateY(-50%) scale(1.0);
+  transform: translateY(-30%) scale(1.0);
   bottom: 10%;
   background-color: #118701;
   color: white;
@@ -993,7 +993,7 @@ TESTIMONIALS
 .btn--next {right: 32px; }
 .btn:hover {
   background-color: #0d7200; 
-  transform: translateY(-50%) scale(1.04);
+  transform: translateY(-30%) scale(1.04);
 }
 
 .testimonial__title {
@@ -1004,6 +1004,7 @@ TESTIMONIALS
 
 .testimonial__text {
   font-size: 1.4rem;
+  max-width: 65ch;
 }
 
 .testimonial__profile {
