@@ -552,7 +552,7 @@ STEPS
 .steps__left {
   position: absolute;
   z-index: -1;
-  transform: scale(.9) translateX(-200px);
+  transform: scale(.7) translateX(-400px);
   animation: moveLeft 10s ease-out;
 }
 
@@ -571,7 +571,7 @@ STEPS
   position: absolute;
   border-radius: 10px;
   padding: 40px;
-  transform: translateX(200px);
+  transform: translateX(320px);
   background: linear-gradient(20deg, rgb(233, 233, 233), white);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   animation: moveRight 10s ease-out;
@@ -1187,11 +1187,11 @@ ANIMATIONS
 
 @keyframes moveLeft {
   from {
-    transform: scale(.8) translateX(-100px);
+    transform: scale(.6) translateX(-100px);
   }
 
   to {
-    transform: scale(.9) translateX(-200px);
+    transform: scale(.7) translateX(-400px);
   } 
 }
 
@@ -1201,7 +1201,7 @@ ANIMATIONS
   }
 
   to {
-    transform: translateX(200px);
+    transform: translateX(320px);
   }
 }
 
