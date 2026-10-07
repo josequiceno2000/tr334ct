@@ -1452,6 +1452,11 @@ RESPONSIVENESS
     display: none;
   }
 
+  .learn__right {
+    max-width: 70%;
+  }
+  
+
 }
 
 @media (max-width: 1000px) {
