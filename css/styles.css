@@ -1229,9 +1229,10 @@ RESPONSIVENESS
   }
 
   .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+    gap: 32px;
   }
 
   .col--forty {
@@ -1244,13 +1245,6 @@ RESPONSIVENESS
     padding: 40px 60px;
   }
 
-  .col--sixty {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.6;
-    width: 100%;
-    top: 144px;
-  }
 
   .hero__text {
     display: flex;
@@ -1301,9 +1295,6 @@ RESPONSIVENESS
     font-size: 1rem;
   }
 
-  #features {
-    margin-top: 256px;
-  }
 
   #learn {
     flex-direction: column-reverse;
@@ -1397,10 +1388,6 @@ RESPONSIVENESS
 
   .customers__text {
     font-size: .8rem;
-  }
-
-  #features {
-    margin-top: 200px;
   }
 
   #values {
